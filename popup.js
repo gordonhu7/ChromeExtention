@@ -93,7 +93,8 @@ function renderStatus(statusText) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  getCurrentTabUrl(function(url) {
+  //default stuff loaded from chrome
+  /*getCurrentTabUrl(function(url) {
     // Put the image URL in Google search.
     renderStatus('Performing Google Image search for ' + url);
 
@@ -114,5 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, function(errorMessage) {
       renderStatus('Cannot display image. ' + errorMessage);
     });
-  });
+  });*/
+
+
 });
